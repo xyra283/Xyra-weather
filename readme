@@ -1,0 +1,64 @@
+# Project Title
+
+The weather forecasting website written in JS is designed for people who want to check the current weather and forecast for the coming days. Using JavaScript, the website can offer interactive features such as city search and weather animations that present changes in weather conditions.
+
+The website uses an API provided by meteorological services, which provide information on temperature, atmospheric pressure, air humidity, and other important meteorological indicators. Based on this information, the website generates weather forecasts for a given city or region.
+
+Data visualization is done using graphs, charts, and other data visualization tools that make it easy to understand and interpret forecasts.
+
+The weather forecasting website written in JS can be used by both individuals and businesses that need accurate weather information to make business decisions.
+
+## Tech Stack
+
+**Client:** HTML, CSS, JavaScript, API
+
+## Demo
+
+<img src="Animation.gif" width="40" height="40" />
+## Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Open with VSCode
+
+```bash
+  code .
+```
+
+Open with live server
+
+```bash
+  npm run start
+```
+
+## Authors
+
+- [@codewithsadee](https://www.github.com/codewithsadee)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Support
+
+For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
