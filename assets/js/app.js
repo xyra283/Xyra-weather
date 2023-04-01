@@ -86,10 +86,10 @@ const errorContent = document.querySelector("[data-error-content]");
  */
 
 export const updateWeather = function (lat, lon) {
-  // loading.style.display = "grid";
+  loading.style.display = "grid";
   // container.style.overflowY = "hidden";
-  // container.classList.remove("fade-in");
-  // errorContent.style.display = "none";
+  container.classList.remove("fade-in");
+  errorContent.style.display = "none";
 
   const currentWeatherSection = document.querySelector(
     "[data-current-weather]"
@@ -378,9 +378,9 @@ export const updateWeather = function (lat, lon) {
 
         forecastSection.querySelector("[data-forecast-list]").appendChild(li);
       }
-      // loading.style.display = "grid";
-      // container.style.overflowY = "overlay";
-      // container.classList.remove("fade-in");
+      loading.style.display = "none";
+      container.style.overflowY = "overlay";
+      container.classList.add("fade-in");
     });
   });
 };
